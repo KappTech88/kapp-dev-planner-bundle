@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "rta-smriti": {
+      "command": "${userHome}/.local/share/rta-smriti/.venv/bin/rta-brain-mcp",
+      "args": ["--brain-dir", "${userHome}/.local/share/rta-smriti/brains", "--tool-profile", "core"]
+    }
+  }
+}

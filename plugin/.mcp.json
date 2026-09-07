@@ -1,0 +1,7 @@
+{
+  "rta-smriti": {
+    "command": "${CLAUDE_PLUGIN_ROOT}/scripts/rta-brain-mcp.sh",
+    "args": [],
+    "env": {}
+  }
+}

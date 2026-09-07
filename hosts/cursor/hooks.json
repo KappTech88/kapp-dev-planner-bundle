@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "hooks": {
+    "sessionStart": [
+      { "type": "command", "command": "scripts/session-start-cursor.sh", "timeout": 20 }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "kapp-dev-planner",
+  "displayName": "Kapp's Dev Planner Bundle",
+  "version": "0.1.0",
+  "description": "drill-me, PRD, tasks and plan skills for starting dev projects right, backed by Rta-Smriti Brain local project memory.",
+  "author": {
+    "name": "Bryant Quiovers",
+    "email": "kapptech88@gmail.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "planning",
+    "prd",
+    "tasks",
+    "requirements",
+    "memory",
+    "mcp"
+  ],
+  "category": "productivity",
+  "mcpServers": "./mcp.json",
+  "hooks": "./hooks.json",
+  "repository": "https://github.com/kapptech88/kapp-dev-planner-bundle",
+  "homepage": "https://github.com/kapptech88/kapp-dev-planner-bundle"
+}

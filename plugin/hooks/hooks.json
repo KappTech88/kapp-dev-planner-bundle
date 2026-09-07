@@ -1,0 +1,17 @@
+{
+  "description": "Kapp's Dev Planner: inject the Rta-Smriti continuation checkpoint and planning stage at session start",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${CLAUDE_PLUGIN_ROOT}/scripts/session-start.sh",
+            "timeout": 20
+          }
+        ]
+      }
+    ]
+  }
+}

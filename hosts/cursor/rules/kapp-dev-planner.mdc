@@ -1,0 +1,20 @@
+---
+description: Kapp's Dev Planner Bundle — how to start a project with /dev-planner, /drill-me, /prd, /tasks, /plan and Rta-Smriti project memory
+alwaysApply: false
+---
+
+# Kapp's Dev Planner Bundle
+
+Plan projects before building them: `/dev-planner` runs drill-me → PRD → tasks → plan with a
+gate between steps; each step is also its own skill. Artifacts live in `docs/planning/`
+(`00-brief.md`, `01-prd.md`, `02-tasks.md`, `03-plan.md`). Project memory lives in a local
+Rta-Smriti brain; read it with the `rta-smriti` MCP tools (`brain_context_pack` first) and
+write with `scripts/brain.sh` from the plugin.
+
+Recommendation: run the coding agent from a terminal CLI (Claude Code, Grok Build, Cursor's
+CLI agent) for the best system vision. A CLI host can scan the machine, install toolchains,
+bootstrap the brain, and run verification commands. In an IDE chat pane without a shell,
+the machine-scan and install steps of `/drill-me` are degraded; the skill will say so and
+give the command to run from a CLI.
+
+Cursor note: there is no `$ARGUMENTS`; the text typed after `/drill-me` is the input.

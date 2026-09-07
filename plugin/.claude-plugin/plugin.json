@@ -1,0 +1,12 @@
+{
+  "name": "kapp-dev-planner",
+  "version": "0.1.0",
+  "description": "Kapp's Dev Planner Bundle: drill-me, PRD, tasks and plan skills for starting dev projects right, backed by Rta-Smriti Brain local project memory. Works in Claude Code, Grok Build and Cursor.",
+  "author": {
+    "name": "Bryant Quiovers",
+    "email": "bquiovers4488@gmail.com"
+  },
+  "repository": "https://github.com/KappTech88/rta-smriti-brain",
+  "license": "MIT",
+  "keywords": ["planning", "prd", "tasks", "requirements", "rta-smriti", "memory", "mcp"]
+}
